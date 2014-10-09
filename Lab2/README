@@ -1,0 +1,4 @@
+zealous deboucing -- guarranteed no more than one change, sometimes none
+
+LEDS change toggle frequency without going back to 0, leave one cycle in between a flash to verify their timing
+
