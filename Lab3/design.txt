@@ -1,0 +1,2 @@
+BAUD RATE 115200  //Because I found sample code with that value
+Rather than use interrupts I reused my switch debouncing timer to poll the value of the accelerometer rather than getting caught in deep with interrupts. This is not power-efficient, but mostly quick and dirty. It was useful making the send_char() function, it was reused in my send_strn() function which was in turn used by send_hex12();
